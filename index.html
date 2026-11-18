@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela-Tela Ubi | Camilan Renyah</title>
+
+    <title>Tela-Tela Ubi Mila | Camilan Renyah</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <!-- HEADER -->
     <header class="header">
         <a href="#home" class="logo">
-            <img src="assets/logo.jpg" alt="Logo Tela-Tela Ubi">
+            <img src="assets/logo.jpg" alt="Logo Tela-Tela">
             <span>Tela-Tela Ubi Mila</span>
         </a>
 
@@ -22,119 +25,242 @@
         <nav id="navbar">
             <a href="#home">Home</a>
             <a href="#produk">Produk</a>
+            <a href="#gallery">Gallery</a>
             <a href="#tentang">Tentang Kami</a>
             <a href="#kontak">Kontak</a>
         </nav>
     </header>
 
+
     <main>
+
+        <!-- HERO -->
         <section class="hero" id="home">
+
             <div class="hero-content">
-                <span class="tagline">Camilan Favorit Semua Kalangan</span>
-                <h1>Renyah di Luar,<br>Lezat di Dalam!</h1>
+                <span class="tagline">
+                    Camilan Favorit Semua Kalangan
+                </span>
+
+                <h1>
+                    Renyah di Luar,
+                    <br>Lezat di Dalam!
+                </h1>
+
                 <p>
                     Nikmati lezatnya tela-tela ubi dengan pilihan
                     rasa Original, Balado, dan Jagung.
                     Cocok untuk menemani waktu santai kamu!
                 </p>
-                <a href="#produk" class="btn">Lihat Katalog</a>
+
+                <a href="#produk" class="btn">
+                    Lihat Katalog
+                </a>
             </div>
 
             <div class="hero-image">
-                <img src="assets/katalog.jpg" alt="Tela-tela ubi original">
+                <img src="assets/katalog.jpg"
+                     alt="Tela-tela ubi">
             </div>
+
         </section>
 
+
+        <!-- PRODUK -->
         <section class="produk section" id="produk">
+
             <div class="section-heading">
                 <span class="tagline">Menu Pilihan</span>
+
                 <h2>Katalog Produk Kami</h2>
-                <p>Pilih rasa favoritmu dan nikmati kerenyahannya!</p>
+
+                <p>
+                    Pilih rasa favoritmu dan nikmati kerenyahannya!
+                </p>
             </div>
 
             <div class="product-grid">
+
+                <!-- ORIGINAL -->
                 <article class="product-card">
+
                     <div class="product-image">
                         <img src="assets/produk1.jpg"
-                             alt="Tela-tela ubi rasa Original">
+                             alt="Tela-tela Original">
+
                         <span class="price">Rp8.000</span>
                     </div>
+
                     <div class="product-info">
                         <h3>Original</h3>
-                        <p>Rasa gurih alami yang sederhana dan nikmat.</p>
+
+                        <p>
+                            Rasa gurih alami yang sederhana dan nikmat.
+                        </p>
+
                         <button class="btn order-btn"
                                 data-product="Original"
                                 data-price="8000">
                             Pesan Sekarang
                         </button>
                     </div>
+
                 </article>
 
+
+                <!-- BALADO -->
                 <article class="product-card">
+
                     <div class="product-image">
                         <img src="assets/produk2.jpg"
-                             alt="Tela-tela ubi rasa Balado">
+                             alt="Tela-tela Balado">
+
                         <span class="price">Rp9.000</span>
                     </div>
+
                     <div class="product-info">
                         <h3>Balado</h3>
-                        <p>Perpaduan rasa pedas dan gurih yang menggugah selera.</p>
+
+                        <p>
+                            Perpaduan rasa pedas dan gurih
+                            yang menggugah selera.
+                        </p>
+
                         <button class="btn order-btn"
                                 data-product="Balado"
                                 data-price="9000">
                             Pesan Sekarang
                         </button>
                     </div>
+
                 </article>
 
+
+                <!-- JAGUNG -->
                 <article class="product-card">
+
                     <div class="product-image">
                         <img src="assets/produk3.jpg"
-                             alt="Tela-tela ubi rasa Jagung">
+                             alt="Tela-tela Jagung">
+
                         <span class="price">Rp9.000</span>
                     </div>
+
                     <div class="product-info">
                         <h3>Jagung</h3>
-                        <p>Rasa jagung manis dan gurih di setiap gigitan.</p>
+
+                        <p>
+                            Rasa jagung manis dan gurih
+                            di setiap gigitan.
+                        </p>
+
                         <button class="btn order-btn"
                                 data-product="Jagung"
                                 data-price="9000">
                             Pesan Sekarang
                         </button>
                     </div>
+
                 </article>
+
             </div>
-            <p class="price-note">*Harga contoh, silakan sesuaikan dengan harga jual.</p>
+
         </section>
 
-        <section class="about section" id="tentang">
-            <div class="about-image">
-                <img src="assets/logo.jpg" alt="Logo usaha Tela-Tela Ubi">
+
+        <!-- GALLERY FOTO PRODUK -->
+        <section class="gallery section" id="gallery">
+
+            <div class="section-heading">
+                <span class="tagline">Our Gallery</span>
+
+                <h2>Gallery Foto Produk</h2>
+
+                <p>
+                    Lihat lebih dekat camilan Tela-Tela Ubi kami!
+                </p>
             </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="assets/gallery1.jpg"
+                         alt="Foto asli produk tela-tela 1">
+                    <div class="gallery-overlay">
+                        <span>Our Delicious Snack</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/gallery2.jpg"
+                         alt="Foto asli produk tela-tela 2">
+                    <div class="gallery-overlay">
+                        <span>Fresh and Crispy</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/gallery3.jpg"
+                         alt="Foto asli produk tela-tela 3">
+                    <div class="gallery-overlay">
+                        <span>Picture With Teacher</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TENTANG KAMI -->
+        <section class="about section" id="tentang">
+
+            <div class="about-image">
+                <img src="assets/logo.jpg"
+                     alt="Logo Tela-Tela Ubi">
+            </div>
+
             <div class="about-content">
+
                 <span class="tagline">Tentang Kami</span>
+
                 <h2>Camilan Sederhana, Rasa Istimewa</h2>
+
                 <p>
                     Tela-Tela Ubi adalah camilan berbahan dasar ubi
                     dengan tekstur renyah dan rasa yang nikmat.
                     Kami menyediakan beberapa pilihan rasa untuk
                     menemani aktivitas dan waktu santaimu.
                 </p>
+
                 <p>
                     Dibuat untuk kamu yang menyukai camilan enak,
                     praktis, dan ramah di kantong.
                 </p>
+
             </div>
+
         </section>
 
+
+        <!-- KONTAK -->
         <section class="contact section" id="kontak">
+
             <div class="section-heading">
+
                 <span class="tagline">Hubungi Kami</span>
+
                 <h2>Informasi Pemesanan</h2>
-                <p>Silakan hubungi kami atau datang langsung ke lokasi.</p>
+
+                <p>
+                    Silakan hubungi kami atau datang langsung ke lokasi.
+                </p>
+
             </div>
 
+
             <div class="contact-grid">
+
                 <div class="contact-card">
                     <span class="contact-icon">📍</span>
                     <h3>Alamat Jualan</h3>
@@ -159,22 +285,39 @@
                     <p>Senin–Sabtu: 09.00–20.00 WIB</p>
                     <p>Minggu: 10.00–17.00 WIB</p>
                 </div>
+
             </div>
+
 
             <div class="contact-action">
                 <button class="btn" id="contact-btn">
                     Hubungi untuk Pemesanan
                 </button>
             </div>
+
         </section>
+
     </main>
 
+
+    <!-- FOOTER -->
     <footer class="footer">
-        <a href="#home" class="footer-brand">Tela-Tela Ubi</a>
+
+        <a href="#home" class="footer-brand">
+            Tela-Tela Ubi Mila
+        </a>
+
         <p>Camilan renyah, teman santai setiap hari.</p>
-        <p>© <span id="year"></span> Mila Kanaya. Semua hak dilindungi.</p>
+
+        <p>
+            © <span id="year"></span>
+            Mila Kanaya. Semua hak dilindungi.
+        </p>
+
     </footer>
 
+
     <script src="js/script.js"></script>
+
 </body>
 </html>
